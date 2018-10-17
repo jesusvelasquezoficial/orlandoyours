@@ -9024,6 +9024,14 @@ ul.section_contact__info__item__content>li>a:hover {
 ul.section_contact__info__item__content>li+li {
     margin-left: 3px
 }
+.section_discover_fondo{
+  position: absolute;
+  background-image: url("../img/areafondo.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 100%;
+}
 
 .section_discover__description {
     font-size: 1.25rem;
