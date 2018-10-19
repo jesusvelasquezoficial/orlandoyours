@@ -9032,7 +9032,32 @@ ul.section_contact__info__item__content>li+li {
   width: 100%;
   height: 100%;
 }
+.capa-video{
+  position: absolute;
+  background-image: url("../img/capa-video.png");
+  background-repeat: repeat-y;
+  background-position: top;
+  width: 100%;
+  height:99%;
+}
+.img-paga1x4{
+  height: 50%;
+}
+.video-avion{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
 
+}
+.video-background {
+    height: 100%;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important
+
+}
 .section_discover__description {
     font-size: 1.25rem;
     line-height: 1.5;
@@ -9079,6 +9104,13 @@ ul.section_contact__info__item__content>li+li {
     .section_discover__img.alt:after {
         display: block
     }
+}
+
+.section_dishes{
+  margin-top: -6px;
+  background: url("../img/clouds-1.jpg");
+  height: 100%;
+  width: 100%;
 }
 
 .section_dishes__carousel {
