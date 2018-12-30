@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Arial:400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i");
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -28,7 +28,7 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: "Lato", sans-serif;
+    --font-family-sans-serif: "Arial", sans-serif;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
@@ -65,7 +65,7 @@ section {
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.7;
@@ -5378,7 +5378,7 @@ button.close {
 }
 
 .tooltip {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .85rem;
     font-weight: 400;
     font-style: normal;
@@ -5501,7 +5501,7 @@ button.close {
 }
 
 .popover {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .85rem;
     font-weight: 400;
     font-style: normal;
@@ -8792,7 +8792,7 @@ a.text-dark:hover {
 }
 
 .btn {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 700;
     line-height: 1.25rem;
@@ -8975,7 +8975,7 @@ a.text-dark:hover {
 }
 
 .section_contact__info__item__heading {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 900;
     letter-spacing: .05em;
@@ -9024,11 +9024,11 @@ ul.section_contact__info__item__content>li>a:hover {
 ul.section_contact__info__item__content>li+li {
     margin-left: 3px
 }
-.section_discover_fondo{
-  position: absolute;
+.section_contenido_fondo{
+  position: relative;
   background-image: url("../img/areafondo.png");
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   width: 100%;
   height: 100%;
 }
@@ -9036,12 +9036,13 @@ ul.section_contact__info__item__content>li+li {
   position: absolute;
   background-image: url("../img/capa-video.png");
   background-repeat: repeat-y;
-  background-position: top;
+  opacity: .8;
+  top:-5px;
   width: 100%;
-  height:99%;
+  height:100%;
 }
 .img-paga1x4{
-  height: 50%;
+  height: 70%;
 }
 .video-avion{
   display: block;
@@ -9106,7 +9107,7 @@ ul.section_contact__info__item__content>li+li {
     }
 }
 
-.section_dishes{
+.fondo_nube{
   margin-top: -6px;
   background: url("../img/clouds-1.jpg");
   height: 100%;
@@ -9114,7 +9115,7 @@ ul.section_contact__info__item__content>li+li {
 }
 
 .section_dishes__carousel {
-    height: 250px
+    height: 300px
 }
 
 .section_dishes__carousel__item {
@@ -9166,7 +9167,7 @@ ul.section_contact__info__item__content>li+li {
 }
 
 .dropdown-item {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-size: .65rem;
     font-weight: 700;
@@ -9267,7 +9268,7 @@ ul.section_contact__info__item__content>li+li {
 }
 
 .section_events__item__content_sm time small {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 1rem;
     display: block;
     margin-top: .5em
@@ -9365,7 +9366,7 @@ blockquote>p:after {
 }
 
 blockquote footer {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 700;
     letter-spacing: .05em;
@@ -9377,7 +9378,7 @@ blockquote footer {
 }
 
 .font-small {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 700;
     letter-spacing: .05em;
@@ -9511,7 +9512,7 @@ input[type=time].form-control-sm {
 }
 
 .section_map__map__heading {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 800;
     margin-top: 1rem;
@@ -9564,7 +9565,7 @@ input[type=time].form-control-sm {
 }
 
 .section_menu__nav>ul>li>a {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 900;
     position: relative;
@@ -9631,7 +9632,7 @@ input[type=time].form-control-sm {
 }
 
 .navbar .nav-link {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 700;
     transition: color .1s;
@@ -9810,14 +9811,26 @@ input[type=time].form-control-sm {
 }
 
 html {
-    font-size: 14px;
+    font-size: 1rem;
     position: relative
 }
 
-@media (min-width:576px) {
-    html {
-        font-size: 15px
-    }
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
 }
 
 .section,
@@ -9827,12 +9840,6 @@ body {
 
 .section {
     padding: 3rem 0
-}
-
-@media (min-width:768px) {
-    .section {
-        padding: 6rem 0
-    }
 }
 
 .section[data-parallax=scroll] {
@@ -9851,16 +9858,8 @@ body {
     border-bottom: 1px solid #f0f0f0
 }
 
-.section_no-padding_top {
-    padding-top: 0
-}
-
-.section_no-padding_bottom {
-    padding-bottom: 0
-}
-
 .section__preheading {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 700;
     letter-spacing: .05em;
@@ -10159,7 +10158,7 @@ body {
 }
 
 .section_footer__heading {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 700;
     margin-top: 2rem;
@@ -10196,7 +10195,7 @@ body {
 }
 
 .section_footer__open__days {
-    font-family: Lato, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: .75rem;
     font-weight: 700;
     font-weight: 900;
@@ -10224,4 +10223,44 @@ body {
     content: "";
     vertical-align: middle;
     border-top: 1px solid #777
+}
+
+.destinostop{
+  position: relative;
+  background-image: url("../img/fondo-destinostop2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100%;
+  width: 100%;
+}
+.funOrlandoyours{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/fundacion.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+}
+.funtext{
+  height: 100%;
+}
+.aliados{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/aliados-starfondo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+.fondo-contacto{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -1000;
+    background-image: url("../img/fondo-contactanos2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
 }

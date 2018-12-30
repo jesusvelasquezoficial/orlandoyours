@@ -1,80 +1,81 @@
+
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+	<link rel="manifest" href="assets/ico/manifest.json">
+	<link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
 	<link rel="shortcut icon" href="assets/ico/favicon.ico">
+	<meta name="msapplication-config" content="assets/ico/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
 
-	<title>Orlando Yours</title>
+	<title>Touché - Café & Restaurant Template</title>
 
 	<!-- CSS Plugins -->
 	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/plugins/lightbox/css/lightbox.min.css">
 	<link rel="stylesheet" href="assets/plugins/flickity/flickity.min.css">
 
-
 	<!-- CSS Global -->
-	<link rel="stylesheet" href="assets/css/main.css">
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets\css\owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/theme.min.css">
 
-</head>
-<body>
+  </head>
+  <body>
+
 	<!-- NAVBAR
 	================================================== -->
 	<nav class="navbar navbar-light navbar-expand-lg fixed-top">
 		<div class="container">
 
 			<!-- Navbar: Brand -->
-			<a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="" alt="..."></a>
+			<a class="navbar-brand d-lg-none" href="index.html">Touché</a>
 
 			<!-- Navbar: Toggler -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<!-- Navbar: Collapse -->
-			<div class="collapse navbar-collapse" id="navbarMenu">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 				<!-- Navbar navigation: Left -->
 				<ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-						<a class="nav-link" href="#">Inicio</a>
+					<li class="nav-item">
+						<a class="nav-link" href="about-us.html">About Us</a>
 					</li>
-          <li class="nav-item">
-						<a class="nav-link" href="#">Tour</a>
-					</li>
-          <li class="nav-item">
-						<a class="nav-link" href="#">Orlando Your</a>
-					</li>
-          <li class="nav-item">
-						<a class="nav-link" href="#">Contacto</a>
-					</li>
-          <li class="nav-item">
-						<a class="nav-link" href="#">Termino y Condiciones</a>
-					</li>
-					<!-- <li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="http://example.com/" id="nav-item__menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="http://example.com" id="nav-item__menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Menu
 						</a>
 						<div class="dropdown-menu" aria-labelledby="nav-item__menu">
 							<a class="dropdown-item" href="menu.html">Menu: Standard</a>
 							<a class="dropdown-item" href="menu_no-images.html">Menu: No Images</a>
 						</div>
-					</li> -->
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="reservation.html">Reservation</a>
+					</li>
 				</ul>
+
+				<!-- Navbar: Brand -->
+				<a class="navbar-brand d-none d-lg-flex" href="index.html">
+					Touché
+				</a>
 
 				<!-- Navbar navigation: Right -->
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Ingreso</a>
+						<a class="nav-link" href="news-and-events.html">News & Events</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Registro</a>
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact-us.html">Contact</a>
 					</li>
 				</ul>
 
@@ -85,54 +86,32 @@
 
 	<!-- WELCOME
 	================================================== -->
-	<section class="section section_welcome img-fluid" data-parallax="scroll" data-image-src="assets/img/slider-universal.jpg">
+	<section class="section section_welcome" data-parallax="scroll" data-image-src="assets/img/1.jpg">
+
 		<!-- Content -->
 		<div class="section_welcome__main">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-6">
+					<div class="col">
+
 						<!-- Heading -->
-            <img src="assets/img/viveunamagica.png" class="img-fluid" alt="...">
-						<br><br>
-						<!-- <p class="section__subheading section_welcome__subheading text-muted">
+						<h2 class="section__preheading section_welcome__preheading text-center text-muted">
+							<span class="text-primary">Café</span> / Restaurant
+						</h2>
+						<h1 class="section__heading section_welcome__heading text-center">
+							Touché
+						</h1>
+						<p class="section__subheading section_welcome__subheading text-center text-muted">
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illo, alias animi iusto neque, sint corrupti? Laudantium, dignissimos id excepturi facilis, facere saepe quasi placeat praesentium ipsa sapiente illo molestiae?
-						</p> -->
-						<!-- Form -->
-						<form class="section_reservation__form" id="reservation__form">
-							<div class="row">
-								<div class="col">
-									<div class="form-group">
-										<label class="sr-only" for="reservation__form__people">Tag</label>
-										<select class="form-control" id="reservation__form__people" name="reservation__form__people">
-											<option value="0" selected="">Tag</option>
-											<option value="1">1 person</option>
-											<option value="2">2 persons</option>
-											<option value="3">3 persons</option>
-											<option value="4">4 persons</option>
-											<option value="5">5 persons</option>
-										</select>
-										<div class="invalid-feedback"></div>
-									</div>
-									<div class="form-group">
-										<label class="sr-only" for="reservation__form__people">Destination</label>
-										<select class="form-control" id="reservation__form__people" name="reservation__form__people">
-											<option value="0" selected="">Destination</option>
-											<option value="1">1 person</option>
-											<option value="2">2 persons</option>
-											<option value="3">3 persons</option>
-											<option value="4">4 persons</option>
-											<option value="5">5 persons</option>
-										</select>
-										<div class="invalid-feedback"></div>
-									</div>
-									<div class="text-center">
-										<button type="submit" class="btn btn-primary bg-primary text-white">
-											Buscar
-										</button>
-									</div>
-								</div>
-							</div> <!-- / .row -->
-						</form>
+						</p>
+
+						<!-- Button -->
+						<div class="text-center">
+							<a href="#section_reservation" class="btn btn-primary text-white">
+								Make reservation
+							</a>
+						</div>
+
 					</div>
 				</div> <!-- / .row -->
 			</div> <!-- / .container -->
@@ -142,7 +121,7 @@
 		<div class="section_welcome__footer">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-md-6">
+					<div class="col-md">
 
 						<!-- Social links -->
 						<ul class="section_welcome__footer__social text-center text-lg-left">
@@ -164,10 +143,11 @@
 						</ul>
 
 					</div>
-					<div class="col-md-6">
+					<div class="col-md">
+
 						<!-- Address -->
 						<div class="section_welcome__footer__address text-center text-lg-right">
-							<i class="fa fa-map-marker"></i> 240 NW 7th St, 33126 Miami. Fl.
+							<i class="fa fa-map-marker"></i> 1234 Altschul, New York, NY 10027-0000
 						</div>
 
 					</div>
@@ -177,464 +157,774 @@
 
 	</section>
 
-	<!-- CONTENIDO
+	<!-- DISCOVER
 	================================================== -->
-	<section class="section">
-		<div class="container section_contenido_fondo">
-			<div class="row pb-5">
-				<div class="col-md-6 align-self-start">
+	<section class="section section_discover section_no-padding_bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 align-self-start">
+
+					<!-- Description -->
+					<p class="section_discover__description">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+
+				</div>
+				<div class="col-md-4 align-self-start">
+
 					<!-- Image -->
 					<div class="section_discover__img">
-						<img src="assets/img/porque-oy2.png" class="img-fluid" alt="...">
+						<img src="assets/img/2.jpg" class="img-fluid" alt="...">
 					</div>
 
 				</div>
 				<div class="col-md-6 align-self-center">
 
 					<!-- Content -->
-					<h2><em>Una forma diferente de viajar</em></h2>
-					<p class="text-justify">
-						Nosotros te ayudamos a vivir tu mágica experiencia, en el Estado de la Florida o en cualquier parte del mundo que desees conocer. Contamos con agentes vacacionales altamente entrenados y calificados para hacerte tus sueños realidad. Descubre como ser parte de nuestra gran familia de Orlando Yours.
+					<h2><em>Lorem ipsum</em> dolor sit amet</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias veritatis nisi, consequatur, laborum libero a neque ducimus. Porro rem illum quo nostrum quisquam asperiores, blanditiis, consectetur. Possimus facilis velit, voluptatibus!
 					</p>
 
-				</div>
-			</div>
-			<div class="row justify-content-around my-md-5">
-				<div class="col-6 col-md-2 pt-3">
-					<!-- Description -->
-					<div class="text-center">
-						<img src="assets/img/ico-atencion.png" class="img-fluid" alt="...">
-            <p> Atencion Personalizada</p>
-					</div>
-				</div>
-        <div class="col-6 col-md-2 pt-3">
-					<!-- Description -->
-					<div class="text-center">
-						<img src="assets/img/ico-servicio.png" class="img-fluid" alt="...">
-            <p> Servicio al Cliente 24/7</p>
-					</div>
-				</div>
-        <div class="col-6 col-md-2 pt-3">
-					<!-- Description -->
-					<div class="text-center">
-						<img src="assets/img/ico-lealtad.png" class="img-fluid" alt="...">
-            <p> Programa de Lealtad</p>
-					</div>
-				</div>
-        <div class="col-6 col-md-2 pt-3">
-					<!-- Description -->
-					<div class="text-center">
-						<img src="assets/img/ico-ofertas.png" class="img-fluid" alt="...">
-            <p> Mejores Ofertas</p>
-					</div>
-				</div>
-        <div class="col-6 col-md-2 pt-3">
-					<!-- Description -->
-					<div class="text-center">
-						<img src="assets/img/ico-pagos.png" class="img-fluid" alt="...">
-            <p> Formas de Pago</p>
-					</div>
-				</div>
-			</div>
-			<div class="row pt-5">
-				<div class="col-md-12 pt-md-5">
-          <!-- Image -->
-					<div class=" text-md-right text-md-bottom">
-						<img src="assets/img/paquetes-oferta.png" class="img-fluid" alt="...">
-					</div>
 				</div>
 			</div> <!-- / .row -->
 		</div> <!-- / .container -->
 	</section>
 
-	<!-- VIDEO AVION
+	<!-- DISCOVER
 	================================================== -->
-	<section class="section py-0">
-		<div class="video-avion">
-			<div class="capa-video">
-				<div class="d-flex align-items-center h-100 pl-5 ml-md-5">
-					<img class="img-fluid img-paga1x4" src="assets/img/paga1x4.png" alt="">
-				</div>
-			</div>
-			<video autoplay class="video-background">
-				<source src="assets/media/Last-Call.mp4" type="video/mp4">
-			</video>
-		</div> <!-- / .video-avion -->
-	</section>
-
-	<!-- VACACIONES
-	================================================== -->
-	<section class="fondo_nube pt-5">
-		<!-- HEADER -->
-		<div class="container">
-			<!-- Heading -->
-			<h2 class="section__heading text-center">
-				<em>
-					Vacaciones
-				</em>
-			</h2>
-			<!-- Subheading -->
-			<p class="section__subheading text-center text-dark blockquote">
-				Disfruta de las mejores vacaciones de tu vida!
-			</p>
-		</div>
-		<div class="container pb-sm-4">
-			<div class="row">
-				<div id="carousel-vacaciones" class="owl-carousel owl-theme">
-				  <div class="item">
-						<div class="card border-0" style="">
-							<img class="card-img-top" src="assets/img/vacations-plata.jpg" alt="Card image cap">
-							<div class="card-body">
-								<div class="row">
-									<div class="col-6 col-md-12 col-lg-6 text-left">
-										<div class="row d-flex">
-											<h5 class="col-lg-12 mr-auto">Vacations Plata</h5>
-											<p class="col-lg-12 text-warning">
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-											</p>
-										</div>
-									</div>
-									<div class="col-6 col-md-12 col-lg-6 text-right text-md-left text-lg-right ">
-										<div class="row">
-											<h5 class="col-md-6 col-lg-12">Desde:</h5>
-											<h5 class="col-md-6 col-lg-12 text-primary">$999</h5>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-				  </div>
-				  <div class="item">
-						<div class="card border-0" style="">
-							<img class="card-img-top" src="assets/img/vacations-gold.jpg" alt="Card image cap"/>
-							<div class="card-body">
-								<div class="row">
-									<div class="col-6 col-md-12 col-lg-6 text-left">
-										<div class="row d-flex">
-											<h5 class="col-lg-12 mr-auto">Vacations Gold</h5>
-											<p class="col-lg-12 text-warning">
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-											</p>
-										</div>
-									</div>
-									<div class="col-6 col-md-12 col-lg-6 text-right text-md-left text-lg-right ">
-										<div class="row">
-											<h5 class="col-md-6 col-lg-12">Desde:</h5>
-											<h5 class="col-md-6 col-lg-12 text-primary">$1,099</h5>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-				  </div>
-				  <div class="item">
-						<div class="card border-0" style="">
-							<img class="card-img-top" src="assets/img/vacations-premium.jpg" alt="Card image cap">
-							<div class="card-body">
-								<div class="row">
-									<div class="col-7 col-md-12 col-lg-7 text-left">
-										<div class="row d-flex">
-											<h5 class="col-lg-12 mr-auto">Vacations Premium</h5>
-											<p class="col-lg-12 text-warning">
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-												<i class=" fa fa-star-o "></i>
-											</p>
-										</div>
-									</div>
-									<div class="col-5 col-md-12 col-lg-5 text-right text-md-left text-lg-right ">
-										<div class="row">
-											<h5 class="col-md-6 col-lg-12">Desde:</h5>
-											<h5 class="col-md-6 col-lg-12 text-primary">$1,399</h5>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-				  </div>
-				</div>
-			</div>
-		</div>
-		</section>
-
-	<!-- DESTINOS TOP -->
-	<section class="destinostop">
-		<div class="container text-right pt-md-5">
-			<img src="assets/img/destinos-top.png" alt="" class="img-fluid">
-		</div>
-	</section>
-
-	<!-- SLIDER DESTINOS TOP -->
-	<section class="container-fluid">
-		<div class="row">
-			<div id="carousel-destinostop" class="owl-carousel owl-theme">
-			  <div class="item">
-					<div class="card border-0" style="">
-						<a href="#"><img class="card-img-top" src="assets/img/vacations-plata.jpg" alt="Card image cap"></a>
-						<div class="card-body">
-							<div class="row">
-								<div class="col-6 col-md-12 col-lg-6 text-left">
-									<div class="row d-flex">
-										<h5 class="col-lg-12 mr-auto">Vacations Plata</h5>
-										<p class="col-lg-12 text-warning">
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-										</p>
-									</div>
-								</div>
-								<div class="col-6 col-md-12 col-lg-6 text-right text-md-left text-lg-right ">
-									<div class="row">
-										<h5 class="col-md-6 col-lg-12">Desde:</h5>
-										<h5 class="col-md-6 col-lg-12 text-primary">$999</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			  <div class="item">
-					<div class="card border-0" style="">
-						<a href="#"><img class="card-img-top" src="assets/img/vacations-plata.jpg" alt="Card image cap"></a>
-						<div class="card-body">
-							<div class="row">
-								<div class="col-6 col-md-12 col-lg-6 text-left">
-									<div class="row d-flex">
-										<h5 class="col-lg-12 mr-auto">Vacations Plata</h5>
-										<p class="col-lg-12 text-warning">
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-										</p>
-									</div>
-								</div>
-								<div class="col-6 col-md-12 col-lg-6 text-right text-md-left text-lg-right ">
-									<div class="row">
-										<h5 class="col-md-6 col-lg-12">Desde:</h5>
-										<h5 class="col-md-6 col-lg-12 text-primary">$999</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			  <div class="item">
-					<div class="card border-0" style="">
-						<a href="#"><img class="card-img-top" src="assets/img/vacations-plata.jpg" alt="Card image cap"></a>
-						<div class="card-body">
-							<div class="row">
-								<div class="col-6 col-md-12 col-lg-6 text-left">
-									<div class="row d-flex">
-										<h5 class="col-lg-12 mr-auto">Vacations Plata</h5>
-										<p class="col-lg-12 text-warning">
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-										</p>
-									</div>
-								</div>
-								<div class="col-6 col-md-12 col-lg-6 text-right text-md-left text-lg-right ">
-									<div class="row">
-										<h5 class="col-md-6 col-lg-12">Desde:</h5>
-										<h5 class="col-md-6 col-lg-12 text-primary">$999</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			  <div class="item">
-					<div class="card border-0" style="">
-						<a href="#"><img class="card-img-top" src="assets/img/vacations-plata.jpg" alt="Card image cap"></a>
-						<div class="card-body">
-							<div class="row">
-								<div class="col-6 col-md-12 col-lg-6 text-left">
-									<div class="row d-flex">
-										<h5 class="col-lg-12 mr-auto">Vacations Plata</h5>
-										<p class="col-lg-12 text-warning">
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-										</p>
-									</div>
-								</div>
-								<div class="col-6 col-md-12 col-lg-6 text-right text-md-left text-lg-right ">
-									<div class="row">
-										<h5 class="col-md-6 col-lg-12">Desde:</h5>
-										<h5 class="col-md-6 col-lg-12 text-primary">$999</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			  <div class="item">
-					<div class="card border-0" style="">
-						<a href="#"><img class="card-img-top" src="assets/img/vacations-plata.jpg" alt="Card image cap"></a>
-						<div class="card-body">
-							<div class="row">
-								<div class="col-6 col-md-12 col-lg-6 text-left">
-									<div class="row d-flex">
-										<h5 class="col-lg-12 mr-auto">Vacations Plata</h5>
-										<p class="col-lg-12 text-warning">
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-											<i class=" fa fa-star-o "></i>
-										</p>
-									</div>
-								</div>
-								<div class="col-6 col-md-12 col-lg-6 text-right text-md-left text-lg-right ">
-									<div class="row">
-										<h5 class="col-md-6 col-lg-12">Desde:</h5>
-										<h5 class="col-md-6 col-lg-12 text-primary">$999</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- FUNDACION ORLANDO YOURS -->
-	<section class="funOrlandoyours">
-		<div class="container text-center funtext">
-			<div class="row">
-				<div class="col-md-6 py-5 pl-5">
-					<img src="assets/img/fundacion-tit.png" alt="" class="img-fluid">
-					<p class="">La fundación Orlando Yours, es una organización sin fines de lucro donde nuestra principal misión es cumplir el sueño de los niños latinoamericanos con enfermedades terminales, facilitándole el viaje a los Estados Unidos y vivan la mágica experiencia en los parques temáticos de la florida.</p>
-					<a class="btn btn-primary rounded bg-primary text-white rounded-circle" href="#" role="button">Ver mas</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- ALIADOS -->
-	<section class="">
-		<div class="container aliados">
-			<img src="assets/img/aliados.png" alt="" class="img-fluid">
-		</div>
-		<div class="container text-center">
-			<img src="assets/img/logos-aliados-1.png" alt="" class="img-fluid pt-1">
-		</div>
-		<div class="container text-center">
-			<a href="#">
-				<img src="assets/img/rentacar-completo.png" alt="" class="img-fluid m-2">
-			</a>
-		</div>
-	</section>
-
-	<!-- GALERY INSTAGRAM -->
-
-	<!-- CONTACTO -->
-	<section class="section fondo-contacto" id="contacto">
+	<section class="section section_discover">
 		<div class="container">
 			<div class="row">
-				<div class="col-10 text-right pb-3">
-					<img src="assets/img/contactanos.png" alt="" class="img-fluid">
+				<div class="col-md-2 order-md-2 align-self-end">
+
+					<!-- Description -->
+					<p class="section_discover__description">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</p>
+
+				</div>
+				<div class="col-md-4 order-md-3 align-self-start">
+
+					<!-- Image -->
+					<div class="section_discover__img alt">
+						<img src="assets/img/7.jpg" class="img-fluid" alt="...">
+					</div>
+
+				</div>
+				<div class="col-md-6 order-md-1 align-self-center">
+
+					<!-- Content -->
+					<h2><em>Velit ipsa</em> quidem debitis amet</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae similique asperiores consequatur! Nihil temporibus qui enim, ab voluptates corporis commodi eum maxime. Accusamus voluptates a, et quidem! Quo, et?
+					</p>
+
+				</div>
+			</div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</section>
+
+	<!-- ABOUT
+	================================================== -->
+	<section class="section section_about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+
+					<!-- Description -->
+					<p class="section_about__description">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam placeat molestiae ab, consectetur.
+					</p>
+
+				</div>
+			</div> <!-- / .row -->
+		</div> <!-- / .container -->
+	</section>
+
+	<!-- MENU
+	================================================== -->
+	<section class="section section_menu section_border_bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+
+					<!-- Heading -->
+					<h2 class="section__heading text-center">
+						Our menu
+					</h2>
+					<p class="section__subheading text-center">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Ratione numquam eos perferendis itaque hic unde, ad, laudantium minima.
+					</p>
+
+				</div>
+			</div> <!-- / .row -->
+			<div class="row">
+				<div class="col">
+
+					<!-- Navigation -->
+					<nav class="section_menu__nav">
+						<ul>
+							<li class="active">
+								<a href="#menu_images" data-filter=".mains">Mains</a>
+							</li>
+							<li>
+								<a href="#menu_images" data-filter=".lunch">Lunch</a>
+							</li>
+							<li>
+								<a href="#menu_images" data-filter=".dinner">Dinner</a>
+							</li>
+							<li>
+								<a href="#menu_images" data-filter=".drinks">Drinks</a>
+							</li>
+						</ul>
+					</nav>
+
 				</div>
 			</div>
-			<div class="row justify-content-lg-end  section_reservation__row ">
-				<div class="col-lg-8">
+			<div class="row section_menu__grid" id="menu_images">
 
-				<!-- Form -->
-				<form class="section_reservation__form" id="reservation__form">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="form-group">
-								<label class="sr-only" for="reservation__form__name">Full name</label>
-								<input type="text" class="form-control" id="reservation__form__name" name="reservation__form__name" placeholder="Escribe tu nombre">
-								<div class="invalid-feedback"></div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<label class="sr-only" for="reservation__form__email">E-mail address</label>
-								<input type="email" class="form-control" id="reservation__form__email" name="reservation__form__email" placeholder="E-mail address">
-								<div class="invalid-feedback"></div>
-							</div>
-						</div>
-						<div class="col-12">
-							<div class="form-group">
-								<label class="sr-only" for="reservation__form__mensage">Mensage</label>
-								<input type="textarea" class="form-control" id="reservation__form__mensage" name="reservation__form__name" placeholder="Mensage">
-								<div class="invalid-feedback"></div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<label class="sr-only" for="reservation__form__name">Full name</label>
-								<input type="text" class="form-control" id="reservation__form__name" name="reservation__form__name" placeholder="Full name">
-								<div class="invalid-feedback"></div>
-							</div>
-							<div class="form-group">
-								<label class="sr-only" for="reservation__form__phone">Phone number</label>
-								<input type="tel" class="form-control" id="reservation__form__phone" name="reservation__form__phone" placeholder="Phone number">
-								<div class="invalid-feedback"></div>
-							</div>
-							<div class="form-group">
-								<label class="sr-only" for="reservation__form__email">E-mail address</label>
-								<input type="email" class="form-control" id="reservation__form__email" name="reservation__form__email" placeholder="E-mail address">
-								<div class="invalid-feedback"></div>
-							</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<label class="sr-only" for="reservation__form__people">People</label>
-									<select class="form-control" id="reservation__form__people" name="reservation__form__people">
-										<option value="1">1 person</option>
-										<option value="2" selected="">2 persons</option>
-										<option value="3">3 persons</option>
-										<option value="4">4 persons</option>
-										<option value="5">5 persons</option>
-									</select>
-									<div class="invalid-feedback"></div>
-								</div>
-								<div class="form-group">
-									<label class="sr-only" for="reservation__form__date">Date</label>
-									<input type="date" class="form-control" id="reservation__form__date" name="reservation__form__date" value="2016-12-31">
-									<div class="invalid-feedback"></div>
-								</div>
-								<div class="form-group">
-									<label class="sr-only" for="reservation__form__time">Time</label>
-									<input type="time" class="form-control" id="reservation__form__time" name="reservation__form__time" value="18:00">
-									<div class="invalid-feedback"></div>
+				<div class="col-md-6 section_menu__grid__item mains">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/26.jpg" alt="...">
 								</div>
 							</div>
-							<div class="col">
-								<div class="text-center">
-									<button type="submit" class="btn btn-primary">
-										Reserve a table
-									</button>
+							<div class="col-7">
+								<h4>Lorem ipsum dolor sit amet</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$15
 								</div>
 							</div>
 						</div> <!-- / .row -->
-					</form>
+					</div>
 				</div>
+				<div class="col-md-6 section_menu__grid__item lunch">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/31.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Fusce id ante ut arcu</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$23
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item dinner">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/27.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Fusce sed dolor eget tortor</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$16
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item drinks">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/28.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Phasellus non elit in dolor</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$10
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item drinks">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/29.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>In vel odio eu massa semper</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$35
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item dinner">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/28.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Morbi ac est consectetur</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$18
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item lunch">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/30.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Lorem ipsum dolor sit amet</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$15
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item mains">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/27.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Fusce id ante ut arcu</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$23
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item mains">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/28.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Fusce sed dolor eget tortor</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$16
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item lunch">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/29.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Phasellus non elit in dolor</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$10
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item dinner">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/29.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>In vel odio eu massa semper</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$35
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item drinks">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/30.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Morbi ac est consectetur</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$18
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item mains">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/29.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Lorem ipsum dolor sit amet</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$15
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item lunch">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/28.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Fusce id ante ut arcu</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$23
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item dinner">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/30.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Fusce sed dolor eget tortor</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$16
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item drinks">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/31.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Phasellus non elit in dolor</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$10
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item drinks">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/26.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>In vel odio eu massa semper</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$35
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item dinner">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/31.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Morbi ac est consectetur</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$18
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item lunch">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/27.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Lorem ipsum dolor sit amet</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$15
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item mains">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/30.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Fusce id ante ut arcu</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$23
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item mains">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/31.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Fusce sed dolor eget tortor</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$16
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item lunch">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/26.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Phasellus non elit in dolor</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$10
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item dinner">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/26.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>In vel odio eu massa semper</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$35
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+				<div class="col-md-6 section_menu__grid__item drinks">
+					<div class="section_menu__item">
+						<div class="row">
+							<div class="col-3 align-self-center">
+								<div class="section_menu__item__img">
+									<img src="assets/img/27.jpg" alt="...">
+								</div>
+							</div>
+							<div class="col-7">
+								<h4>Morbi ac est consectetur</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+								</p>
+							</div>
+							<div class="col-2">
+								<div class="section_menu__item__price text-center">
+									$18
+								</div>
+							</div>
+						</div> <!-- / .row -->
+					</div>
+				</div>
+
 			</div> <!-- / .row -->
-		</div>
+		</div> <!-- / .container -->
 	</section>
+
+	<!-- DISHES
+	================================================== -->
+	<section class="section section_dishes">
+
+		<!-- Header -->
+		<div class="container">
+			<div class="row">
+				<div class="col">
+
+					<!-- Heading -->
+					<h2 class="section__heading text-center">
+						Featured dishes
+					</h2>
+
+					<!-- Subheading -->
+					<p class="section__subheading text-center">
+						Quibusdam in labore tempore quidem voluptatum ullam soluta! Maiores!
+					</p>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Carousel -->
+		<div class="section_dishes__carousel dots-disabled">
+			<div class="section_dishes__carousel__item">
+
+				<!-- Image -->
+				<img src="assets/img/26.jpg" alt="..." class="section_dishes__carousel__item__img">
+
+				<!-- Body -->
+				<div class="section_dishes__carousel__item__body">
+					<h5 class="section_dishes__carousel__item__body__heading mb-0">
+						Lorem ipsum dolor sit amet <span>$25</span>
+					</h5>
+				</div>
+
+			</div>
+			<div class="section_dishes__carousel__item">
+
+				<!-- Image -->
+				<img src="assets/img/27.jpg" alt="..." class="section_dishes__carousel__item__img">
+
+				<!-- Body -->
+				<div class="section_dishes__carousel__item__body">
+					<h5 class="section_dishes__carousel__item__body__heading mb-0">
+						Lorem ipsum dolor sit amet <span>$35</span>
+					</h5>
+				</div>
+
+			</div>
+			<div class="section_dishes__carousel__item">
+
+				<!-- Image -->
+				<img src="assets/img/28.jpg" alt="..." class="section_dishes__carousel__item__img">
+
+				<!-- Body -->
+				<div class="section_dishes__carousel__item__body">
+					<h5 class="section_dishes__carousel__item__body__heading mb-0">
+						Lorem ipsum dolor sit amet <span>$18</span>
+					</h5>
+				</div>
+
+			</div>
+			<div class="section_dishes__carousel__item">
+
+				<!-- Image -->
+				<img src="assets/img/29.jpg" alt="..." class="section_dishes__carousel__item__img">
+
+				<!-- Body -->
+				<div class="section_dishes__carousel__item__body">
+					<h5 class="section_dishes__carousel__item__body__heading mb-0">
+						Lorem ipsum dolor sit amet <span>$32</span>
+					</h5>
+				</div>
+
+			</div>
+			<div class="section_dishes__carousel__item">
+
+				<!-- Image -->
+				<img src="assets/img/30.jpg" alt="..." class="section_dishes__carousel__item__img">
+
+				<!-- Body -->
+				<div class="section_dishes__carousel__item__body">
+					<h5 class="section_dishes__carousel__item__body__heading mb-0">
+						Lorem ipsum dolor sit amet <span>$40</span>
+					</h5>
+				</div>
+
+			</div>
+			<div class="section_dishes__carousel__item">
+
+				<!-- Image -->
+				<img src="assets/img/31.jpg" alt="..." class="section_dishes__carousel__item__img">
+
+				<!-- Body -->
+				<div class="section_dishes__carousel__item__body">
+					<h5 class="section_dishes__carousel__item__body__heading mb-0">
+						Lorem ipsum dolor sit amet <span>$27</span>
+					</h5>
+				</div>
+
+			</div>
+		</div> <!-- / .section_dishes__carousel -->
+
+	</section>
+
 	<!-- RESERVATION
 	================================================== -->
 	<section class="section section_reservation section_gray" id="section_reservation">
@@ -829,7 +1119,7 @@
 
 	<!-- EVENTS
 	================================================== -->
-	<section class="section section_events pb-0">
+	<section class="section section_events section_no-padding_bottom">
 
 		<!-- Intro -->
 		<div class="container">
@@ -1095,7 +1385,7 @@
 
 					<!-- Form -->
 					<div id="mc_embed_signup">
-						<form class="section_newsletter__form validate" action="http://simpleqode.us15.list-manage.com/subscribe/post-json?u=507744bbfd1cc2879036c7780&amp;id=4523d25e1b&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+						<form class="section_newsletter__form validate" action="//simpleqode.us15.list-manage.com/subscribe/post-json?u=507744bbfd1cc2879036c7780&id=4523d25e1b&c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
 							<div id="mc_embed_signup_scroll" class="row">
 								<div class="mc-field-group form-group col-md-9">
 									<label for="mce-EMAIL" class="sr-only">E-mail address</label>
@@ -1326,7 +1616,7 @@
 	================================================== -->
 
 	<!-- JS Global -->
-	<script src="assets/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script>
 
@@ -1338,13 +1628,10 @@
 	<script src="assets/plugins/lightbox/js/lightbox.min.js"></script>
 	<script src="assets/plugins/reservation/reservation.js"></script>
 	<script src="assets/plugins/alerts/alerts.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
 
 	<!-- JS Custom -->
-	<script src="assets/js/custom.js"></script>
 	<script src="assets/js/theme.min.js"></script>
+	<script src="assets/js/custom.js"></script>
 
   </body>
-
-<!-- Mirrored from simpleqode.bitbucket.io/touche/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Oct 2018 17:41:28 GMT -->
 </html>
