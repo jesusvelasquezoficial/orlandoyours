@@ -10258,7 +10258,6 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
-    z-index: -1000;
     background-image: url("../img/fondo-contactanos2.jpg");
     background-repeat: no-repeat;
     background-position: top;
