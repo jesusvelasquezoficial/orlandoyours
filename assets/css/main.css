@@ -10139,14 +10139,16 @@ body {
 }
 
 .section_footer {
-    background-color: #151515
+      position: relative;
+      height: 100%;
+      width: 100%;
+      color: #A0A0A0;
+      background-image: url("../img/footer-bg.jpg");
+      background-repeat: repeat;
+      background-position: top left;
+      background-attachment: scroll;
 }
 
-@media (min-width:768px) {
-    .section_footer [class*=col] {
-        padding: 0 2rem
-    }
-}
 
 .section_footer a,
 .section_footer a:active,
@@ -10154,7 +10156,7 @@ body {
 .section_footer a:active:hover,
 .section_footer a:focus,
 .section_footer a:hover {
-    color: #777
+    color: #A0A0A0;
 }
 
 .section_footer__heading {

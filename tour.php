@@ -10,32 +10,9 @@
 	================================================== -->
 	<?php include 'sections/bienvenida.php'; ?>
 
-	<!-- CONTENIDO
+	<!-- CONTENIDO TOURS
 	================================================== -->
-	<?php include 'sections/contenido.php'; ?>
-
-	<!-- VIDEO AVION
-	================================================== -->
-	<?php include 'sections/avion.php'; ?>
-
-	<!-- VACACIONES
-	================================================== -->
-	<?php include 'sections/vacaciones.php'; ?>
-
-	<!-- DESTINOS TOP -->
-	<?php include 'sections/destinostop.php'; ?>
-
-	<!-- FUNDACION ORLANDO YOURS -->
-	<?php include 'sections/funorlandoyour.php'; ?>
-
-	<!-- ALIADOS -->
-	<?php include 'sections/aliados.php'; ?>
-
-
-	<!-- GALERY INSTAGRAM -->
-
-	<!-- CONTACTO -->
-	<?php include 'sections/contacto_section.php'; ?>
+	<?php include 'sections/tour_section.php'; ?>
 
 	<!-- FOOTER
 	================================================== -->
