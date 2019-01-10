@@ -8,7 +8,7 @@
 
 	<!-- WELCOME
 	================================================== -->
-	<?php include 'sections/bienvenida.php'; ?>
+	<?php include 'sections/bienvenida_tour.php'; ?>
 
 	<!-- CONTENIDO TOURS
 	================================================== -->
