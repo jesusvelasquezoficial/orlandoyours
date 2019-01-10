@@ -7,7 +7,7 @@
 
         <!-- Heading -->
         <h1 class="section__heading section_header__heading">
-          Tours Orlando Yours
+          Tours Orlando master
         </h1>
 
       </div>
