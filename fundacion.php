@@ -10,9 +10,13 @@
 	================================================== -->
 	<?php include 'sections/bienvenida_fundacion.php'; ?>
 
-	<!-- CONTENIDO TOURS
+	<!-- NUESTRA FUNDACION
 	================================================== -->
-	<?php include 'sections/orlandoyours_section.php'; ?>
+	<?php include 'sections/fundacion_section.php'; ?>
+
+	<!-- FOOTER
+	================================================== -->
+	<?php include 'sections/planearv.php'; ?>
 
 	<!-- FOOTER
 	================================================== -->
