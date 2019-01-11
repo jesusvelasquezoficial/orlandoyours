@@ -10,11 +10,11 @@
                 <div class="row d-flex">
                   <h5 class="col-lg-12 mr-auto">Riviera Maya</h5>
                   <p class="col-lg-12 text-warning">
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
                   </p>
                 </div>
               </div>
@@ -37,11 +37,11 @@
                 <div class="row d-flex">
                   <h5 class="col-lg-12 mr-auto">Punta Cana</h5>
                   <p class="col-lg-12 text-warning">
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
                   </p>
                 </div>
               </div>
@@ -64,11 +64,11 @@
                 <div class="row d-flex">
                   <h5 class="col-lg-12 mr-auto">Cancun</h5>
                   <p class="col-lg-12 text-warning">
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
                   </p>
                 </div>
               </div>
@@ -91,11 +91,11 @@
                 <div class="row d-flex">
                   <h5 class="col-lg-12 mr-auto">Las Vegas</h5>
                   <p class="col-lg-12 text-warning">
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
                   </p>
                 </div>
               </div>
@@ -118,11 +118,11 @@
                 <div class="row d-flex">
                   <h5 class="col-lg-12 mr-auto">Vacations Plata</h5>
                   <p class="col-lg-12 text-warning">
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
                   </p>
                 </div>
               </div>
@@ -145,11 +145,11 @@
                 <div class="row d-flex">
                   <h5 class="col-lg-12 mr-auto">Vacations Gold</h5>
                   <p class="col-lg-12 text-warning">
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
                   </p>
                 </div>
               </div>
@@ -172,11 +172,11 @@
                 <div class="row d-flex">
                   <h5 class="col-lg-12 mr-auto">Vacations Premium</h5>
                   <p class="col-lg-12 text-warning">
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
-                    <i class=" fa fa-star-o "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
+                    <i class=" far fa-star "></i>
                   </p>
                 </div>
               </div>

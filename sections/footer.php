@@ -19,10 +19,10 @@
             <span><i class="fa fa-phone"></i> +1 (786) 641-1750 / (511) 7097915</span>
           </li>
           <li>
-            <span><i class="fa fa-envelope-o"></i><a href="mailto:reservas@orlandoyours.com"> reservas@orlandoyours.com</a></span>
+            <span><i class="fa fa-envelope"></i><a href="mailto:reservas@orlandoyours.com"> reservas@orlandoyours.com</a></span>
           </li>
           <li>
-            <span><i class="fa fa-envelope-o"></i><a href="mailto:administracion@orlandoyours.com"> administracion@orlandoyours.com</a></span>
+            <span><i class="fa fa-envelope"></i><a href="mailto:administracion@orlandoyours.com"> administracion@orlandoyours.com</a></span>
           </li>
         </ul>
       </div>
@@ -35,17 +35,17 @@
           <ul class="section_welcome__footer__social">
             <li>
               <a href="#" class="h4">
-                <i class="fa fa-twitter"></i>
+                <i class="fab fa-twitter-square"></i>
               </a>
             </li>
             <li>
               <a href="https://www.facebook.com/orlandoyours/?ref=br_rs" class="h4">
-                <i class="fa fa-facebook"></i>
+                <i class="fab fa-facebook"></i>
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/orlandoyours/" class="h4">
-                <i class="fa fa-instagram"></i>
+                <i class="fab fa-instagram"></i>
               </a>
             </li>
           </ul>
