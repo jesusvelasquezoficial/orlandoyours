@@ -2,7 +2,7 @@
   <div class="container">
 
     <!-- Navbar: Brand -->
-    <a class="navbar-brand" href="#"><img src="assets/img/logo.png" class="" alt="..."></a>
+    <a class="navbar-brand" href="index.php"><img src="assets/img/logo.png" class="" alt="..."></a>
 
     <!-- Navbar: Toggler -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,13 +15,13 @@
       <!-- Navbar navigation: Left -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Inicio</a>
+          <a class="nav-link" href="index.php">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="tour.php">Tour</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Orlando Your</a>
+          <a class="nav-link" href="orlandoyours.php">Orlando Your</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contacto</a>

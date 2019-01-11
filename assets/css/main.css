@@ -9220,7 +9220,6 @@ ul.section_contact__info__item__content>li+li {
     bottom: 0;
     left: 0;
     content: "";
-    background: linear-gradient(45deg, #000, transparent)
 }
 
 .active .section_events__item__bg {
@@ -9860,13 +9859,14 @@ body {
 
 .section__preheading {
     font-family: Arial, sans-serif;
-    font-size: .75rem;
+    font-size: 1rem;
     font-weight: 700;
     letter-spacing: .05em;
     text-transform: uppercase
 }
 
 .section__heading {
+    font-size: 2.2rem;
     max-width: 600px;
     margin-bottom: 2.5rem
 }
@@ -10264,4 +10264,11 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: scroll;
+}
+.img-title-oy{
+  padding: 150px 0px;
+}
+.title-card-oy{
+  font-family: Arial, sans-serif;
+  font-size: 1.3rem;
 }
