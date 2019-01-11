@@ -24,6 +24,9 @@
           <a class="nav-link" href="orlandoyours.php">Orlando Your</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="fundacion.php">Fundacion</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Contacto</a>
         </li>
         <li class="nav-item">
