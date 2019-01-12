@@ -1,6 +1,6 @@
 <section>
-  <div class="container pt-5">
-    <div class="row">
+  <div class="container py-5">
+    <div class="row text-justify">
       <p>La aprobación de este paquete de vacaciones es con Orlando Yours LLC e incluye hospedaje en el destino seleccionado, (el Estado de la Florida), con una duración de 9 días y 8 noches en total, de acuerdo con el plan elegido. Este paquete de vacaciones es otorgado por la empresa ya mencionada, la cual está registrada en el estado de Florida y ubicada en 5091 NW 7th St, Miami Florida, 33126 Estados Unidos.</p>
       <p>Las peticiones de reserva que no se reciban por lo menos (45) cuarenta y cinco días antes de la fecha estimada de viaje estarán sujetas a un cargo de $ 75.00 por familia. Titulares de paquetes de vacaciones deben notificar cualquier cambio a oficial@orlandoyours.com. El itinerario de Reservas sera enviado a su correo electrónico 7 días antes de su llegada a los Estados Unidos, esto dependerá de la fecha en que envíe su boleto aéreo y su planilla de reservas completamente llena.</p>
       <p>Habrá cargos adicionales si los cambios se hacen 14 días antes de la fecha de llegada. Los cambios diferentes a la reserva existente tendrán un valor adicional de $ 25.00 USD por cada variante. Los cambios realizados dentro de (72) setenta y dos horas antes de su llegada tendrán un cargo de $99.00 USD.</p>
