@@ -27,10 +27,10 @@
           <a class="nav-link" href="fundacion.php">Fundacion</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="contacto.php">Contacto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Termino y Condiciones</a>
+          <a class="nav-link" href="tyc.php">Termino y Condiciones</a>
         </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="http://example.com/" id="nav-item__menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
