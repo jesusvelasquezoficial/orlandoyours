@@ -46,7 +46,7 @@
       <!-- Navbar navigation: Right -->
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Ingreso</a>
+          <a class="nav-link" href="">Ingreso</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Registro</a>

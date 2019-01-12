@@ -56,7 +56,7 @@
       <div class="col-12">
         <!-- Copyright -->
         <div class="section_footer__copyright ">
-          <i class="fa fa-copyright"></i> <span id="js-current-year"></span> Orlando Yours. <a href="#" class="text-primary">Términos y Condiciones.</a>
+          <i class="fa fa-copyright"></i> <span id="js-current-year"></span> Orlando Yours. <a href="tyc.php" class="text-primary">Términos y Condiciones.</a>
         </div>
       </div>
     </div> <!-- / .row -->
