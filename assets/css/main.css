@@ -39,7 +39,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -392,7 +392,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Playfair Display, serif;
+    font-family: Arial, sans-serif;
     font-weight: 400;
     line-height: 1.42857;
     margin-bottom: .5rem;
@@ -7047,8 +7047,16 @@ button.bg-dark:hover {
         position: -webkit-sticky;
         position: sticky;
         z-index: 1020;
-        top: 0
+        top:70px;
     }
+}
+
+@media (min-width:992px) {
+  @supports ((position:-webkit-sticky) or (position:sticky)) {
+      .sticky-top {
+          top:75px !important;
+      }
+  }
 }
 
 .sr-only {
@@ -8755,7 +8763,7 @@ a.text-dark:hover {
 }
 
 .alert {
-    font-family: Playfair Display, serif;
+    font-family: Arial, sans-serif;
     color: #151515;
     border-width: 2px 0 0;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, .15)
@@ -9257,7 +9265,7 @@ ul.section_contact__info__item__content>li+li {
 }
 
 .section_events__item__content_sm time {
-    font-family: Playfair Display, serif;
+    font-family: Arial, sans-serif;
     font-size: 2.5rem;
     line-height: 1;
     display: block;
@@ -9350,7 +9358,7 @@ blockquote {
 }
 
 blockquote>p {
-    font-family: Playfair Display, serif;
+    font-family: Arial, sans-serif;
     position: relative;
     margin-bottom: 1em;
     color: #151515
@@ -9647,7 +9655,7 @@ input[type=time].form-control-sm {
 }
 
 .navbar-brand {
-    font-family: Playfair Display, serif;
+    font-family: Arial, sans-serif;
     font-size: 2rem;
     font-style: italic;
     transition: color .1s
@@ -9762,7 +9770,7 @@ input[type=time].form-control-sm {
 }
 
 .section_phone__number {
-    font-family: Playfair Display, serif;
+    font-family: Arial, sans-serif;
     font-size: 2.5rem;
     font-weight: 700
 }
@@ -9784,7 +9792,7 @@ input[type=time].form-control-sm {
 }
 
 .section_quote__blockquote:before {
-    font-family: Playfair Display, serif;
+    font-family: Arial, sans-serif;
     font-size: 10rem;
     line-height: 5rem;
     display: block;
@@ -10022,7 +10030,7 @@ body {
 }
 
 .section_welcome__footer__address {
-    font-family: Playfair Display, serif;
+    font-family: Arial, sans-serif;
     color: hsla(0, 0%, 100%, .7)
 }
 
@@ -10206,7 +10214,7 @@ body {
 }
 
 .section_footer__open__time {
-    font-family: Playfair Display, serif;
+    font-family: Arial, sans-serif;
     font-size: 1.25rem
 }
 

@@ -41,4 +41,21 @@
          items:4
      }
    }
- })
+ });
+ $('#carousel-fotos').owlCarousel({
+   loop:true,
+   nav:false,
+   dots:true,
+   autoplay:true,
+   autoplayTimeout:4000,
+   autoplayHoverPause:true,
+   responsiveClass:true,
+   responsive:{
+     0:{
+         items:1
+     }
+   }
+ });
+ $(function () {
+  $('[data-toggle="popover"]').popover()
+})
