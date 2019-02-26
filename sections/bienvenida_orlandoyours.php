@@ -3,7 +3,7 @@
 <section class="section section_header" data-parallax="scroll" data-image-src="assets/img/top-nosotros.jpg">
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col"> 
 
         <!-- Heading -->
         <blockquote class="blockquote">
