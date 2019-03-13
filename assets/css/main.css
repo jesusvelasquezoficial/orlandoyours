@@ -71,7 +71,7 @@ body {
     line-height: 1.7;
     margin: 0;
     text-align: left;
-    color: #777;
+    color: #000;
     background-color: #fff
 }
 
@@ -181,15 +181,12 @@ a {
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
+
 }
 
 a,
 a:hover {
     color: #4674e7
-}
-
-a:hover {
-    text-decoration: underline
 }
 
 a:not([href]):not([tabindex]),
@@ -1732,8 +1729,8 @@ pre code {
     height: calc(3.25rem + 2px);
     padding: 1rem 2rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    color: #495057;
-    border: 1px solid #f0f0f0;
+    color: #000;
+    border: 1px solid #717887;
     border-radius: 0;
     background-color: #fff;
     background-clip: padding-box

@@ -5,7 +5,7 @@
         <img class="img-fluid img-paga1x4" src="assets/img/paga1x4.png" alt="">
       </div>
     </div>
-    <video autoplay class="video-background">
+    <video  class="video-background" autoplay>
       <source src="assets/media/Last-Call.mp4" type="video/mp4">
     </video>
   </div> <!-- / .video-avion -->

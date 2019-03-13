@@ -1,3 +1,7 @@
+<?php
+session_start();
+error_reporting(E_ERROR);
+?>
 <!doctype html>
 <html lang="en">
 <?php include 'sections/head.php'; ?>
@@ -40,10 +44,10 @@
 	<!-- FOOTER
 	================================================== -->
 	<?php include 'sections/footer.php'; ?>
+	<?php include 'core/alert.php'; ?>
 
 	<!-- JAVASCRIPT
 	================================================== -->
 	<?php include 'sections/javascript.php'; ?>
-
 	</body>
 </html>

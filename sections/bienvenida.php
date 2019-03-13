@@ -61,17 +61,17 @@
           <ul class="section_welcome__footer__social text-center text-lg-left">
             <li>
               <a href="#">
-                <i class="fa fa-twitter"></i>
+                <i class="fab fa-twitter-square"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="fa fa-facebook"></i>
+              <a href="https://www.facebook.com/orlandoyours/?ref=br_rs">
+                <i class="fab fa-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i class="fa fa-instagram"></i>
+              <a href="https://www.instagram.com/orlandoyours/">
+                <i class="fab fa-instagram"></i>
               </a>
             </li>
           </ul>

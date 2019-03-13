@@ -57,6 +57,7 @@
 
   </div> <!-- / .container -->
 </nav> <!-- / .navbar -->
+
 <!-- Modal Ingresar -->
 <div class="modal fade" id="modalIngresar" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-sm">
@@ -74,8 +75,8 @@
             <input type="campoUser" name="campoUser" class="form-control" id="campoUser" placeholder="Usuario">
           </div>
           <div class="form-group col-md-12">
-            <label for="campoPass" class="sr-only">Password:</label>
-            <input type="password" name="campoPass" class="form-control" id="campoPass" placeholder="Password">
+            <label for="pass" class="sr-only">Password:</label>
+            <input type="password" name="pass" class="form-control" id="pass" placeholder="Password">
           </div>
           <button type="submit" name="Ingresar" class="btn bg-primary text-white btn-block">Ingresar</button>
         </form>
@@ -86,6 +87,7 @@
     </div>
   </div>
 </div>
+
 <!-- Modal Registro -->
 <div class="modal fade" id="modalRegistro" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -97,38 +99,35 @@
         </button>
       </div>
       <div class="modal-body bg-light">
-        <form class="form-row" action="#" method="post">
+        <form class="form-row" action="core/validacion.php" method="post">
+          <input type="hidden" name="val" value="1">
           <div class="form-group col-md-12">
-            <label for="campoUser" class="sr-only">Usuario:</label>
-            <input type="text" name="campoUser" class="form-control" id="campoUser" placeholder="Usuario">
+            <label for="email" class="sr-only">Email:</label>
+            <input type="text" name="email" class="form-control" id="email" placeholder="Email">
           </div>
           <div class="form-group col-md-6">
-            <label for="campoPass" class="sr-only">Password:</label>
-            <input type="password" name="campoPass" class="form-control" id="campoPass" placeholder="Password">
+            <label for="pass" class="sr-only">Password:</label>
+            <input type="password" name="pass" class="form-control" id="pass" placeholder="Password">
           </div>
           <div class="form-group col-md-6">
-            <label for="campoConfPass" class="sr-only">Confirmar Password:</label>
-            <input type="password" name="campoConfPass" class="form-control" id="campoConfPass" placeholder="Confirmar Password">
+            <label for="passR" class="sr-only">Confirmar Password:</label>
+            <input type="password" name="passR" class="form-control" id="passR" placeholder="Confirmar Password">
           </div>
           <div class="form-group col-md-6">
-            <label for="campoNom" class="sr-only">Nombre:</label>
-            <input type="text" name="campoNom" class="form-control" id="campoNom" placeholder="Nombre">
+            <label for="nom" class="sr-only">Nombre:</label>
+            <input type="text" name="nom" class="form-control" id="nom" placeholder="Nombre">
           </div>
           <div class="form-group col-md-6">
-            <label for="campoApe" class="sr-only">Apellidos:</label>
-            <input type="text" name="campoApe" class="form-control" id="campoApe" placeholder="Apellido">
+            <label for="ape" class="sr-only">Apellidos:</label>
+            <input type="text" name="ape" class="form-control" id="ape" placeholder="Apellido">
           </div>
           <div class="form-group col-md-6">
-            <label for="campoEmail" class="sr-only">Email:</label>
-            <input type="text" name="campoEmail" class="form-control" id="campoEmail" placeholder="Email">
+            <label for="tel" class="sr-only">telefono:</label>
+            <input type="text" name="tel" class="form-control" id="tel" placeholder="Telefono">
           </div>
           <div class="form-group col-md-6">
-            <label for="campoTel" class="sr-only">telefono:</label>
-            <input type="text" name="campoTel" class="form-control" id="campoTel" placeholder="Telefono">
-          </div>
-          <div class="form-group col-md-12">
-            <label for="campoPais" class="sr-only">Pais:</label>
-            <select name="campoPais" class="form-control">
+            <label for="pais" class="sr-only">Pais:</label>
+            <select name="pais" class="form-control">
               <option value="AF">Afganistán</option>
               <option value="AL">Albania</option>
               <option value="DE">Alemania</option>
